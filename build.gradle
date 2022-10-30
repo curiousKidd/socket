@@ -24,6 +24,10 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// https://mvnrepository.com/artifact/com.corundumstudio.socketio/netty-socketio
+	implementation 'com.corundumstudio.socketio:netty-socketio:1.7.22'
+
 }
 
 tasks.named('test') {
